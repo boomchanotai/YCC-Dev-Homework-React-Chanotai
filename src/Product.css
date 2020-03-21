@@ -5,14 +5,25 @@
 }
 
 .back{
-    font-family: 'Roboto-Medium';
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto-Medium";
     color: #007AFF;
     cursor: pointer;
+    position: fixed;
+    z-index: 1;
 }
 
 .container-fluid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.container-fluid div:nth-child(1) img{
+    position: fixed;
+    width: 40%;
+    left: 10%;
+    transform: translateY(10%);
 }
 
 .container-fluid h1{
@@ -71,4 +82,45 @@
 
 .purchase:hover{
     background-color: #0061cc;
+}
+
+@media screen and (max-width: 700px){
+    .container-fluid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .back{
+        position: inherit;
+    }
+    .container-fluid div:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .container-fluid div:nth-child(1) img{
+        position: inherit;
+        width: 100%;
+        text-align: center;
+    }
+    .container-fluid h1{
+        margin: 0;
+        font-family: 'Roboto-Regular';
+        font-size: 26px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .container-fluid div{
+        color: #707070;
+        line-height: 2;
+    }
+    
+    .container-fluid h2{
+        font-size: 24px;
+        margin: 0;
+        text-align: center;
+        font-family: 'Roboto-Regular';
+        color: #333333;
+    }
+    .purchase{
+        width: 100%;
+    }
 }

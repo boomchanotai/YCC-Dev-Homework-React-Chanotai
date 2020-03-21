@@ -16,6 +16,9 @@ class Page extends React.Component {
 
 class MacbookPage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })
         $(".back").click(function(){
           window.location.href="/";
         })
@@ -58,6 +61,9 @@ class MacbookPage extends React.Component {
 
 class SurfacePage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })
         $(".back").click(function(){
           window.location.href="/";
         })
@@ -100,6 +106,9 @@ class SurfacePage extends React.Component {
 
 class SwiftPage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })
         $(".back").click(function(){
           window.location.href="/";
         })
@@ -142,6 +151,9 @@ class SwiftPage extends React.Component {
 
 class XPSPage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })
         $(".back").click(function(){
           window.location.href="/";
         })
@@ -184,6 +196,9 @@ class XPSPage extends React.Component {
 
 class ZenBookPage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })      
         $(".back").click(function(){
           window.location.href="/";
         })
@@ -226,6 +241,9 @@ class ZenBookPage extends React.Component {
 
 class PurchasePage extends React.Component {
     componentDidMount(){
+      $(".nav-ext").click(function(){
+        $(".navbar").fadeToggle()
+      })
         $("#browse").click(function(){
           window.location.href="/";
         })

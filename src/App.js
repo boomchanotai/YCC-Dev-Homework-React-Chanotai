@@ -8,6 +8,9 @@ import {Link } from 'react-router-dom';
 
 class App extends React.Component {
   componentDidMount(){
+    $(".nav-ext").click(function(){
+      $(".navbar").fadeToggle()
+    })
     $("#macbook-info").click(function(){
       window.location.href="/Macbook";
     })
@@ -65,6 +68,8 @@ class App extends React.Component {
 
 function Navbar1() {
   return (
+    <div>
+    <div class="nav-ext">YCC2 : Dev with React</div>
     <div className="navbar">
       <nav>
         <div>
@@ -75,6 +80,7 @@ function Navbar1() {
           <a id="zenbook-sec">ZenBook</a>
         </div>
       </nav>
+    </div>
     </div>
   );
 }

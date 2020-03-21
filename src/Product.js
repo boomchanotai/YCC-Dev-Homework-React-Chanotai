@@ -25,7 +25,9 @@ class Product extends React.Component{
 
 function Navbar2() {
     return (
-      <div className="navbar">
+      <div>
+        <div class="nav-ext">YCC2 : Dev with React</div>
+        <div className="navbar">
         <nav>
           <div>
             <a id="macbook-info">Macbook</a>
@@ -35,6 +37,7 @@ function Navbar2() {
             <a id="zenbook-info">ZenBook</a>
           </div>
         </nav>
+        </div>
       </div>
     );
 }
