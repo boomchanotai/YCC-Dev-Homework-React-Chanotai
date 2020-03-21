@@ -229,6 +229,21 @@ class PurchasePage extends React.Component {
         $("#browse").click(function(){
           window.location.href="/";
         })
+        $("#macbook-info").click(function(){
+            window.location.href="/Macbook";
+          })
+          $("#surface-info").click(function(){
+            window.location.href="/Surface";
+          })
+          $("#swift-info").click(function(){
+            window.location.href="/Swift";
+          })
+          $("#xps-info").click(function(){
+            window.location.href="/XPS";
+          })
+          $("#zenbook-info").click(function(){
+            window.location.href="/ZenBook";
+          })
       }
     render(){
         return(
