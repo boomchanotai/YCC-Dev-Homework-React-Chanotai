@@ -1,0 +1,28 @@
+.ordered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.ordered h1{
+    font-family: "Roboto-Regular";
+    color: #000000;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.ordered div{
+    font-family: "Roboto-Light";
+    font-size: 24px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.ordered a{
+    font-family: "Roboto-Bold";
+    font-size: 22px;
+    color: #007AFF;
+    text-decoration: none;
+}
